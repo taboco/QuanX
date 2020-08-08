@@ -37,7 +37,7 @@ type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com,
 */
 
 /********************** SCRIPT START *********************************/
-const $ = API("0hXRukeHYXaVM0PD");
+const $ = API("caiyun");
 const ERR = MYERR();
 const display_location = JSON.parse($.read("display_location") || "false");
 
