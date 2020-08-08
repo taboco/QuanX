@@ -17,7 +17,7 @@ TODO:
 [MITM]
 hostname=weather-data.apple.com, api.weather.com
 [rewrite_local]
-https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://https://raw.githubusercontent.com/taboco/QuanX/master/Scripts/caiyun.js
 (2). Loon
 [MITM]
 hostname=weather-data.apple.com, api.weather.com
@@ -37,7 +37,7 @@ type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com,
 */
 
 /********************** SCRIPT START *********************************/
-const $ = API("caiyun");
+const $ = API("0hXRukeHYXaVM0PD");
 const ERR = MYERR();
 const display_location = JSON.parse($.read("display_location") || "false");
 
