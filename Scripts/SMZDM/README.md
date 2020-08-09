@@ -11,6 +11,24 @@
 
 [task_local]
 1 0 * * * smzdm.js
+
+
+[MITM]
+*.smzdm.com
+
+[rewrite_local]
+# 189及以前版本
+^https:\/\/www\.smzdm\.com\/?.? url script-response-body smzdm.cookie.js
+# 190及以后版本
+^https:\/\/www\.smzdm\.com\/?.? url script-request-header smzdm.cookie.js
+
+[task_local]
+1 0 * * * smzdm.js
+
+
+
+
+
 说明
 先把*.smzdm.com加到[MITM]
 把smzdm.cookie.js和smzdm.js传到On My iPhone - Quantumult X - Scripts (传到 iCloud 相同目录也可, 注意要打开 quanx 的 iCloud 开关)
