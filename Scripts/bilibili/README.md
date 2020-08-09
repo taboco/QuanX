@@ -20,6 +20,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 配置 (QuanX)
 
 [MITM]
+
 *.bilibili.com
 
 [rewrite_local]
