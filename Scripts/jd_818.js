@@ -8,7 +8,7 @@
 // quantumultx
 [task_local]
 #京东818手机节
-1 0-18/6 * * * https://gitee.com/lxk0301/scripts/raw/master/jd_818.js, tag=京东818手机节, enabled=true
+1 0-18/6 * * * https://raw.githubusercontent.com/taboco/QuanX/master/Scripts/jd_818.js, tag=京东818手机节, enabled=true
 // Loon
 [Script]
 cron "1 0-18/6 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js,tag=京东818手机节
