@@ -16,11 +16,13 @@ http-request ^https:\/\/(www|live)\.bilibili\.com\/?.? script-path=https://raw.g
 cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
 # 如需银瓜子转硬币，添加以下内容 
 cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
+
 配置 (QuanX)
 [MITM]
 *.bilibili.com
 
 [rewrite_local]
+
 # 189及以前版本
 ^https:\/\/(www|live)\.bilibili\.com\/?.? url script-response-body bilibili.cookie.js
 # 190及以后版本
@@ -30,6 +32,8 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 1 0 * * * bilibili.js
 # 如需银瓜子转硬币，添加以下内容 
 1 0 * * * bilibili.silver2coin.js
+
+
 说明
 先在浏览器登录 (先登录! 先登录! 先登录!)
 先把*.bilibili.com加到[MITM]
