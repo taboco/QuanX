@@ -4,7 +4,7 @@ jd免费水果 搬的https://github.com/liuxiaoyucc/jd-helper/blob/a6f275d978574
 // quantumultx
 [task_local]
 #jd免费水果
-5 6-18/6 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/znz1992/Gallery/master/jdsg.png, enabled=true
+5 6-18/6 * * * https://raw.githubusercontent.com/taboco/QuanX/master/Scripts/jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/znz1992/Gallery/master/jdsg.png, enabled=true
 // Loon
 [Script]
 cron "5 6-18/6 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js,tag=东东农场
